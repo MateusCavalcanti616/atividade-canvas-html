@@ -24,7 +24,7 @@
   ctx.strokeRect(150,230,300,200);
 
 
-  ctx.strokeStyle="darkblue";
+  ctx.fillStyle = "darkblue";
   ctx.beginPath();
   ctx.moveTo(300, 250); 
   ctx.lineTo(200, 400); 
