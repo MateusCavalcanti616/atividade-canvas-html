@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quadrado dentro circulo</title>
+  <style>
+    canvas{border:1px solid rgb(189, 1, 1);}
+  </style>
+</head>
+<body>
+
+<canvas width="600" height="600"></canvas>
+
+  
+
+<script>
+  let canvas = document.querySelector('canvas');
+  let ctx = canvas.getContext('2d');
+ 
+
+  
+    ctx.beginPath( );
+    ctx.arc (300,300, 90, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fillStyle="darkblue";
+    ctx.fillRect(260,260,80,80);
+
+
+  
+    
+
+</script>
+</body>
+</html>
+
+        
