@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triângulos juntos</title>
+  <style>
+    canvas{border:1px solid rgb(206, 0, 0);}
+  </style>
+</head>
+<body>
+
+<canvas width="600" height="600"></canvas>
+
+
+
+<script>
+  const canvas = document.querySelector('canvas');
+  const ctx = canvas.getContext('2d');
+
+  
+
+			TrianguloX = 300;
+			TrianguloY = 100;
+
+
+			
+
+
+
+
+			
+
+			TrianguloX = 200;
+			TrianguloY = 50;
+
+
+			ctx.strokeStyle="blue";
+			ctx.fillStyle = "transparent";
+			ctx.beginPath();
+			ctx.moveTo(TrianguloX,TrianguloY);
+		    ctx.lineTo(TrianguloX-50,TrianguloY+80);
+		    ctx.lineTo(TrianguloX+50,TrianguloY+80);
+		    ctx.lineTo(TrianguloX,TrianguloY);
+		    ctx.stroke();
+
+		    TrianguloX = 250;
+			TrianguloY = 50;
+
+
+			ctx.strokeStyle="blue";
+			ctx.fillStyle = "transparent";
+			ctx.beginPath();
+			ctx.moveTo(TrianguloX,TrianguloY);
+		    ctx.lineTo(TrianguloX-50,TrianguloY+80);
+		    ctx.lineTo(TrianguloX+50,TrianguloY+80);
+		    ctx.lineTo(TrianguloX,TrianguloY);
+		    ctx.stroke();
+
+</script>
+</body>
+</html>
