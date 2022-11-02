@@ -1,0 +1,16 @@
+1 – Com suas palavras descreva o que é a DOM e qual sua relação com o HTML?
+R: Ele é uma API que nos permite acessar e manipular documentos HTML e XML válidos, Quando estamos desenvolvendo aplicações com HTML, é por meio do DOM que podemos manipular os elementos presentes nele.
+
+2 - O que é o canvas HTML?
+R: O <canvas> é um elemento HTML que pode ser usado para desenhar gráficos na página web através de linguagem de script.
+
+3- – Quais as linguagens e tecnologias comumente envolvidas no desenvolvimento de produtos baseados em
+canvas html? 
+R: A linguagem mais utilizada por esse recurso é a Javascript – que permite, portanto, a criação de animações através de códigos de programação dinâmica, além de de o canvas também ser ser utilizado para desenhar gráficos e ser usado para fazer composições de fotos e também para animações.
+
+4- Explique para que serve o código “document.getElementById()”
+R: O método getElementById() permite obter um elemento do documento a partir de seu atributo ID especificado.
+
+
+
+
